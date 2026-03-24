@@ -16,6 +16,9 @@ secrets.json
 *.key
 *.pem
 
+# Staging - unsanitized scripts (NEVER commit)
+_staging/
+
 # OS Files
 .DS_Store
 Thumbs.db
